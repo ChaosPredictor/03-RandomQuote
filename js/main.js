@@ -6,10 +6,18 @@ var quotesArray = [
 ]
 
 $(document).ready(function(){
-	console.log( "ready!" );
-	$(".quote-text").text(quotesArray[0].quote);
-	$(".by-text").text(quotesArray[0].by);
+	//console.log( "ready!" );
+	var all = returnRandom();
+	$(".quote-text").text(all.quote);
+	$(".by-text").text(all.by);
 });
+
+
+function returnRandom(type) {
+	var length = quotesArray.length;
+	var ranNum = Math.floor(Math.random()*length);
+	return quotesArray[ranNum]
+}
 
 
 
