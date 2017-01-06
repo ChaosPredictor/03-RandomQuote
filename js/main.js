@@ -10,7 +10,14 @@ $(document).ready(function(){
 	var all = returnRandom();
 	$(".quote-text").text(all.quote);
 	$(".by-text").text(all.by);
+
+	document.getElementById("refresh").addEventListener("click", function(){
+			var all = returnRandom();
+			$(".quote-text").text(all.quote);
+			$(".by-text").text(all.by);
+	});
 });
+
 
 
 function returnRandom(type) {
