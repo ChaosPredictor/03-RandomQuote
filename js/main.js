@@ -7,6 +7,8 @@ var quotesArray = [
 
 $(document).ready(function(){
 	console.log( "ready!" );
+	$(".quote-text").text(quotesArray[0].quote);
+	$(".by-text").text(quotesArray[0].by);
 });
 
 
