@@ -3,9 +3,39 @@ body{
 }
 
 .main-div{
-	margin-top:180px;
+	margin-top:150px;
 	background-color: #876543;
 	min-height: 400px:
 	min-width: 400px;
-	padding: 120px;
+	padding-top: 80px;
+	padding-bottom: 80px;
+  border-radius: 20px;
+}
+
+.main-text{
+	padding-bottom: 50px;
+}
+
+.quote-text{
+	font-size: 28px;
+	font-family: "Times New Roman",Times,Arial,sans-serif;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.by-text{
+	font-size: 18px;
+	font-family: "Francois One","Open Sans",Arial,sans-serif;
+}
+
+.main-button{
+
+}
+
+.btn-refresh{
+
+}
+
+.pull-right {
+  float: right !important;
 }

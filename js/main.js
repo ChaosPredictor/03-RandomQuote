@@ -24,12 +24,23 @@ var quotesArray = [
 ]
 
 $(document).ready(function(){
-	//console.log( "ready!" );
 	refresh();
+
 	document.getElementById("refresh").addEventListener("click", function(){
 		refresh();
 	});
+
+	document.getElementById("send").addEventListener("click", function(){
+		send();
+	});
 });
+
+function send(){
+	var quote = "quotes";
+	var related = "freecodecamp";
+	var text = "\"" + $(".quote-text").text() + "\" " + $(".by-text").text();
+	window.open("https://twitter.com/intent/tweet?hashtags=" + quote + "&related=" + related + "&text=" + text);
+}
 
 function refresh(){
 	var all = returnRandom();

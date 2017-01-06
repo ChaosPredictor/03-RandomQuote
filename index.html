@@ -11,13 +11,21 @@
     <!--script src="vendor/bootstrap/js/bootstrap.min.js"></script>
     <script src="js/agency.min.js"></script-->
 		<script src="js/main.js"></script> 
-
 	</head>
 	<body>
 		<div class="col-md-6 col-md-offset-3 main-div">
-			<h4 class="quote-text"> for test</h4>
-			<h5 class="by-text"> for test</h5>
-			<button id="refresh" type="button" class="btn btn-default">Refresh</button>
+			<div class="col-md-9 col-md-offset-1 main-text">
+				<h4 class="quote-text"> for test</h4>
+				<h5 class="by-text"> for test</h5>
+			</div>
+			<div class="col-md-8 col-md-offset-2 main-button">
+				<div class="col-md-6">
+					<button id="refresh" type="button" class="btn btn-default btn-refresh">Refresh</button>
+				</div>
+				<div class="col-md-6 pull-right">
+					<button id="send" type="button" class="btn btn-default">Send to Twitter</button>
+				</div>
+			</div>		
 		</div>
 	</body>
 </html>
