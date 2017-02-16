@@ -4,7 +4,7 @@ This is portfolio website that done as part of freeCodeCamp project. It's websit
 
 ## Code Example
 
-This website done by HTML, CSS, JS that include bootstrap design _______ & jquery js ______.
+This website done by HTML, CSS, JS that include bootstrap design framework & jquery js library.
 
 ## Motivation
 
